@@ -13,10 +13,12 @@ has been provided with this repository.
 
 It exports the first level layer groups that have:
 	- at least one child layer
-	- is named one of: ['alb', 'ao', 'mtl', 'rgh', 'emi']
+	- is named one of: `['alb', 'ao', 'mtl', 'rgh', 'emi']`
 
 
 The `.kra` file provided contains layer-groups with these names as well as a default black background.
+
+Note that this exporter only exports layers with the names used in the `.kra` file. This is for use in a PBR renderer but you can toggle specific maps off if you like by removing the layer group. For example if your model has no emission map needed, just remove the `emi` layer group to ignore it.
 
 ### Installing
 Put the `material_exporter` and the `material_exporter.desktop`folder in the Krita resources folder.
