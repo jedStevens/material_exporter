@@ -11,9 +11,7 @@ This plugin intends to be working with the corresponding `.kra` that
 has been provided with this repository.
 
 
-It exports the first level layer groups that have:
-	- at least one child layer
-	- is named one of: `['alb', 'ao', 'mtl', 'rgh', 'emi']`
+It exports the first level layer groups that has at least one child layer and is named one of: `['alb', 'ao', 'mtl', 'rgh', 'emi']`
 
 
 The `.kra` file provided contains layer-groups with these names as well as a default black background.
