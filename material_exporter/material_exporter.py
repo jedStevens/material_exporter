@@ -14,7 +14,7 @@ class MaterialExporterDocker(DockWidget):
 		self.export_button = QPushButton("Export")
 		self.export_button.clicked.connect(self.export)
 
-		self.base_edit = QLineEdit("/home/jed/j3d/adventure")
+		self.base_edit = QLineEdit("/home/user/")
 
 		self.model_edit = QLineEdit("model_name")
 
@@ -27,9 +27,7 @@ class MaterialExporterDocker(DockWidget):
 
 	def canvasChanged(self, canvas):
 		pass
-
-
-
+		
 	def set_base_layers(self, b, nodes):
 		for child in nodes:
 			child.setVisible(b)
