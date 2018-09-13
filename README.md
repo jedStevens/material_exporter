@@ -16,16 +16,12 @@ It exports the first level layer groups that have:
 	- is named one of: ['alb', 'ao', 'mtl', 'rgh', 'emi']
 
 
-	The `.kra` file provided contains layer-groups with these names as well
-	as a default black background.
+The `.kra` file provided contains layer-groups with these names as well as a default black background.
 
 ### Installing The Plugin
 Put the `material_exporter` and the `material_exporter.desktop`folder in the Krita resources folder.
-`~/.local/share/krita/pykrita/`
 
-Your Krita folder should look like this:
-    ~/.local/share/krita/pykrita/material_exporter
-                                /material_exporter.desktop
+On Linux this folder is `~/.local/share/krita/pykrita/`
 
 ###  Exporting
 There are 3 fields to fill in.
