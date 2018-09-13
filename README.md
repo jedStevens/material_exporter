@@ -18,12 +18,22 @@ It exports the first level layer groups that have:
 
 The `.kra` file provided contains layer-groups with these names as well as a default black background.
 
-### Installing The Plugin
+### Installing
 Put the `material_exporter` and the `material_exporter.desktop`folder in the Krita resources folder.
 
 On Linux this folder is `~/.local/share/krita/pykrita/`
 
-###  Exporting
+### Enabling
+Navigating to `Settings > Configure Krita`.
+
+Go to the `Python Plugin Manager`.
+
+Scroll to `Material Exporter` and ensure it is checked.
+
+If you cannot see the docker, navigate to `Settings > Docker > Material Exporter` and click the checkbox.
+
+
+### Exporting
 There are 3 fields to fill in.
 
 
