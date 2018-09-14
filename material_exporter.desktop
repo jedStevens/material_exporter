@@ -3,5 +3,6 @@ Type=Service
 ServiceTypes=Krita/PythonPlugin
 X-KDE-Library=material_exporter
 X-Python-2-Compatible=false
+X-Krita-Manual=MANUAL.htm
 Name=Material Exporter
 Comment=PBR Material exporter docker.
